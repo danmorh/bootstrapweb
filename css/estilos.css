@@ -1,0 +1,101 @@
+/*metemos este carrusel para que centre las fotos*/
+div.carousel-item {
+    max-height: 400px;
+    overflow: hidden;
+    height: 400px; /* Altura fija para el carrusel */
+  }
+  
+  div.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .carousel-inner {
+    height: 400px; /* Asegura que el contenedor interno también tiene altura fija */
+  }
+
+/* ICONOS */
+i.bi-airplane-engines{
+    font-size: 45px;
+
+}
+i.bi-luggage-fill{
+    font-size: 45px;
+    color: rgb(110, 45, 45);
+}
+i.bi-balloon-heart-fill{
+    color: rgb(232, 12, 12);
+    font-size: 45px;
+}
+i.bi-bank{
+    color: rgb(113, 155, 155);
+    font-size: 45px;
+
+}
+/* texto de secciones */
+p.servicios{
+    text-align: center;
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+}
+p.nosotros{
+    text-align: center;
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+}
+p.faq{
+    text-align: center;
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+}
+p.contacto{
+    text-align: center;
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+}
+/* fondo trajetas */
+div.card{
+    background-color: rgb(197, 224, 255);
+}
+
+/* texto nosotros */
+p.nos{
+    text-align: justify;
+}
+
+div.acordeon{
+    background-color: rgb(171, 171, 240);
+    border-radius: 8px;
+}
+
+button.accordion-button{
+    background-color: rgb(171, 171, 240);
+}
+div.accordion-body{
+    background-color: rgb(247, 129, 192);
+}
+
+/* ICONOS redes */
+div.redes{
+    text-align: left;
+}
+
+
+div.footer{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: small;
+
+
+    display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  height: 100px;             /* altura del div */
+    
+}
